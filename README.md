@@ -2,8 +2,9 @@
 
 Persisted versions of `useState` and `useReducer`.
 
-The hooks created by the factories should have the exact same API and types as
-`useState` and `useReducer`.
+- TypeScript support.
+- Tree shakeable.
+- Hooks created by the factories have the exact same API and types as `useState` and `useReducer`.
 
 ## `createUseStatePersisted`
 
