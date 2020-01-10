@@ -1,4 +1,4 @@
-# use-persist
+# use-persisted
 
 Persisted versions of `useState` and `useReducer`.
 
@@ -9,7 +9,7 @@ Persisted versions of `useState` and `useReducer`.
 ## `createUseStatePersisted`
 
 ```tsx
-import { createUseStatePersisted } from 'use-persist'
+import { createUseStatePersisted } from 'use-persisted'
 
 const useStatePersisted = createUseStatePersisted('localstorage-key')
 
@@ -20,7 +20,7 @@ const [myState, setMyState] = useStatePersisted(myInitialState)
 ## `createUseReducerPersisted`
 
 ```tsx
-import { createUseReducerPersisted } from 'use-persist'
+import { createUseReducerPersisted } from 'use-persisted'
 
 const useReducerPersisted = createUseReducerPersisted('localstorage-key')
 

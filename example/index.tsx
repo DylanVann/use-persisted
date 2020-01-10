@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <h1>
-        <Pre>use-persist</Pre>
+        <Pre>use-persisted</Pre>
       </h1>
       <p>Try using the input or counter and refreshing the page.</p>
       <p>

@@ -1,5 +1,5 @@
 {
-  "name": "use-persist",
+  "name": "use-persisted",
   "version": "0.1.0",
   "license": "MIT",
   "author": "Dylan Vann",
@@ -8,7 +8,7 @@
   ],
   "sideEffects": false,
   "main": "dist/index.js",
-  "module": "dist/use-persist.esm.js",
+  "module": "dist/use-persisted.esm.js",
   "typings": "dist/index.d.ts",
   "scripts": {
     "build": "tsdx build",
