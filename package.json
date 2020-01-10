@@ -1,8 +1,12 @@
 {
   "name": "use-persisted",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanvann/use-persisted.git"
+  },
   "license": "MIT",
-  "author": "Dylan Vann",
+  "author": "Dylan Vann <dylan@dylanvann.com>",
   "files": [
     "dist"
   ],
