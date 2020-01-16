@@ -54,7 +54,7 @@ const useReducerPersistedInternal = (
  */
 export const createUseReducerPersisted = (
   key: string,
-  provider = globalThis.localStorage,
+  provider = window.localStorage,
 ): typeof useReducer => {
   if (provider) {
     const storage = createStorage(provider)
@@ -77,7 +77,7 @@ const useStateInitializer = (initialValue: any) =>
  */
 export const createUseStatePersisted = (
   key: string,
-  provider = globalThis.localStorage,
+  provider = window.localStorage,
 ): typeof useState => {
   if (provider) {
     const storage = createStorage(provider)
